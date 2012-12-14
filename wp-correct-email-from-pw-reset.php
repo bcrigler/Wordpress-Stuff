@@ -31,7 +31,7 @@ if ( !class_exists('wp_mail_from') ) {
 
 		// new name
 		function fb_mail_from_name() {
-			$name = 'ambassadorhelp';
+			$name = 'Display Name Goes Here';
 			// alternative the name of the blog
 			// $name = get_option('blogname');
 			$name = esc_attr($name);
@@ -40,7 +40,7 @@ if ( !class_exists('wp_mail_from') ) {
 
 		// new email-adress
 		function fb_mail_from() {
-			$email = 'ambassadorhelp@marineambassador.com';
+			$email = 'emailaddressyouwant@email.com';
 			$email = is_email($email);
 			return $email;
 		}
